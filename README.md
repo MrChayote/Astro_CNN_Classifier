@@ -22,7 +22,6 @@ A partir de este conjunto de datos, el proyecto busca desarrollar una CNN que pu
 ---
 
 
----
 
 ##  Estructura general
 >"Se encuentra en proceso de creacion"
