@@ -1,0 +1,5 @@
+Modelo,Accuracy,F1-Score,Tiempo Entrenamiento (min)
+CNN (Custom),0.76,0.75,40
+EfficientNet-B0,0.8163,0.8145,15
+ResNet50,0.8931,0.8919,16
+Vision Transformer (ViT),0.9754,0.9754,22
