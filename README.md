@@ -26,40 +26,6 @@ A partir de este conjunto de datos, el proyecto busca desarrollar una CNN que pu
 
 ### Estructura de los modelos:
 
-### En este modelo se realizo una estructura:
-
-**La Entrada y el Calentamiento:**
-- Entrada ($256 \times 256$ píxeles)
-
-- Rescaling (Normalización)
-
-- Aumento de Datos ('RandomFlip', 'RandomRotation', 'RandomZoom')
-
-**La red convolucional:**
-- Bloque 1 (Detalles finos)
-    - Usa 32 filtros
-
-    - Tiene dos capas Conv2D seguidas
-
-    - Termina con MaxPooling2D
-
-- Bloque 2 (Formas):
-    - Sube a 64 filtros
-
-    - Tiene dos capas Conv2D seguidas
-
-    - Termina con MaxPooling2D
-
-- Bloque 3 (Conceptos complejos)
-    - Sube a 128 filtros
-
-    - Tiene dos capas Conv2D seguidas
-
-    - Termina con MaxPooling2D
-
-**"El Cerebro": Clasificación**:
-- Flatten (Aplanar)
-
 - Dense (256 neuronas)
 
 - Dropout (0.2)
