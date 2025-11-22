@@ -15,13 +15,53 @@ A partir de este conjunto de datos, el proyecto busca desarrollar una CNN que pu
 
 ## Objetivos
 - Analizar y comprender la estructura del dataset SpaceNet.  
-- Implementar una arquitectura CNN en TensorFlow/Keras para clasificación de imágenes.  
-- Entrenar y evaluar el modelo con métricas de desempeño (accuracy, pérdida, matriz de confusión).  
-- Visualizar los resultados y ejemplos de predicción.
+- Implementacion de multiples modelos para poder obtener el máximo desempeño en la calsificacion de las imagenes
+    - CNN.
+    - Modelo EfficientNet-B0.
+    - Modelo ResNet50
+    - Modelo Vision Transformer (ViT).
+- Comparacion de los resultados de los modelos.
 
 ---
 
+### Estructura de los modelos:
 
+### En este modelo se realizo una estructura:
 
-##  Estructura general
->"Se encuentra en proceso de creacion"
+**La Entrada y el Calentamiento:**
+- Entrada ($256 \times 256$ píxeles)
+
+- Rescaling (Normalización)
+
+- Aumento de Datos ('RandomFlip', 'RandomRotation', 'RandomZoom')
+
+**La red convolucional:**
+- Bloque 1 (Detalles finos)
+    - Usa 32 filtros
+
+    - Tiene dos capas Conv2D seguidas
+
+    - Termina con MaxPooling2D
+
+- Bloque 2 (Formas):
+    - Sube a 64 filtros
+
+    - Tiene dos capas Conv2D seguidas
+
+    - Termina con MaxPooling2D
+
+- Bloque 3 (Conceptos complejos)
+    - Sube a 128 filtros
+
+    - Tiene dos capas Conv2D seguidas
+
+    - Termina con MaxPooling2D
+
+**"El Cerebro": Clasificación**:
+- Flatten (Aplanar)
+
+- Dense (256 neuronas)
+
+- Dropout (0.2)
+
+- Dense (Salida - 6 neuronas)
