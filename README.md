@@ -26,4 +26,8 @@ A partir de este conjunto de datos, el proyecto busca desarrollar una CNN que pu
 
 ## Procedimiento
 
-Dado que la cantidad de imagenes por clase es grande se decidio aumentar los datos y eliminar las clases que eran muy pocoas (Asteroides, Cometas). Para aumentar la cantidad de datos puedes usar este codigo 
+Dado que la cantidad de imagenes por clase es grande se decidio aumentar los datos y eliminar las clases que eran muy pocoas (Asteroides, Cometas). [code](augment_dataset.py) 
+
+> Nota:
+> En caso de que los archivos esten corruptos puedes usar el siguiente [code](verificacion.py)
+
