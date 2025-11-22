@@ -40,3 +40,18 @@ Aplicacion de los modelos:
 
 ## Resultados:
 
+Tras entrenar y evaluar cuatro arquitecturas diferentes para la clasificación estelar, se obtuvieron los siguientes resultados comparativos:
+
+| Modelo | Accuracy | Precision | Recall | F1-Score |
+| :--- | :---: | :---: | :---: | :---: |
+| **EfficientNet** | **0.975** | **0.975** | **0.975** | **0.975** |
+| Vision Transformer (ViT) | 0.967 | 0.967 | 0.967 | 0.967 |
+| ResNet | 0.956 | 0.956 | 0.956 | 0.956 |
+| CNN Personalizada | 0.768 | 0.766 | 0.768 | 0.764 |
+
+**Hallazgos clave:**
+![Gráfica comparativa de modelos](https://github.com/MrChayote/Astro_CNN_Classifier/blob/codigos/comparativa_modelos_final.png)
+
+* **Mejor Desempeño:** El modelo basado en **EfficientNet** demostró ser el más robusto, alcanzando la métrica más alta en todas las categorías (>97%), consolidándose como la mejor opción para este dataset.
+* **Arquitecturas Modernas vs. Tradicionales:** Se observa una diferencia significativa (+20%) entre la CNN personalizada y los modelos pre-entrenados (ResNet, ViT, EfficientNet), lo que valida el uso de *Transfer Learning* para esta tarea.
+* **Transformers en Visión:** El modelo **ViT (Vision Transformer)** obtuvo un segundo lugar muy cercano (96.7%), demostrando que las arquitecturas basadas en atención son altamente competitivas frente a las convolucionales clásicas para la clasificación de cuerpos estelares.
