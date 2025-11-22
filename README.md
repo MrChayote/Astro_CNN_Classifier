@@ -26,4 +26,4 @@ A partir de este conjunto de datos, el proyecto busca desarrollar una CNN que pu
 
 ## Procedimiento
 
-Dado que la cantidad de imagenes por clase es grande se decidio aumentar los datos y eliminar las clases que eran muy pocoas [Asteroides, Cometas]
+Dado que la cantidad de imagenes por clase es grande se decidio aumentar los datos y eliminar las clases que eran muy pocoas (Asteroides, Cometas). Para aumentar la cantidad de datos puedes usar este codigo 
