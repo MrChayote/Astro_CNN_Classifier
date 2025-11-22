@@ -24,10 +24,6 @@ A partir de este conjunto de datos, el proyecto busca desarrollar una CNN que pu
 
 ---
 
-### Estructura de los modelos:
+## Procedimiento
 
-- Dense (256 neuronas)
-
-- Dropout (0.2)
-
-- Dense (Salida - 6 neuronas)
+Dado que la cantidad de imagenes por clase es grande se decidio aumentar los datos y eliminar las clases que eran muy pocoas [Asteroides, Cometas]
