@@ -26,8 +26,17 @@ A partir de este conjunto de datos, el proyecto busca desarrollar una CNN que pu
 
 ## Procedimiento
 
-Dado que la cantidad de imagenes por clase es grande se decidio aumentar los datos y eliminar las clases que eran muy pocoas (Asteroides, Cometas). [code](augment_dataset.py) 
+Dado que la cantidad de imagenes por clase es grande se decidio aumentar los datos y eliminar las clases que eran muy pocoas (Asteroides, Cometas). [code](https://github.com/MrChayote/Astro_CNN_Classifier/blob/codigos/augment_dataset.py) 
 
 > Nota:
-> En caso de que los archivos esten corruptos puedes usar el siguiente [code](verificacion.py)
+> En caso de que los archivos esten corruptos puedes usar el siguiente [code](https://github.com/MrChayote/Astro_CNN_Classifier/blob/codigos/verificacion.py)
+
+## Modelos
+Aplicacion de los modelos:
+- [CNN](https://github.com/MrChayote/Astro_CNN_Classifier/blob/codigos/Stellar-Clasification-CNN.py)
+- [Modelo EfficientNet-B0](https://github.com/MrChayote/Astro_CNN_Classifier/blob/codigos/Stellar-Clasification-Model-EfficientNet_B0.py)
+- [Modelo ResNet50](https://github.com/MrChayote/Astro_CNN_Classifier/blob/codigos/Stellar-Clasification-Model-ResNet.py)
+- [Modelo Vision Transformer (ViT)](https://github.com/MrChayote/Astro_CNN_Classifier/blob/codigos/Stellar-Clasification-ViT.py)
+
+## Resultados:
 
