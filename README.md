@@ -44,9 +44,9 @@ Tras entrenar y evaluar cuatro arquitecturas diferentes para la clasificación e
 
 | Modelo | Accuracy | Precision | Recall | F1-Score |
 | :--- | :---: | :---: | :---: | :---: |
-| **EfficientNet** | **0.975** | **0.975** | **0.975** | **0.975** |
+| **EfficientNet** | **0.893** | **0.816** | **0.819** | **0.815** |
 | Vision Transformer (ViT) | 0.967 | 0.967 | 0.967 | 0.967 |
-| ResNet | 0.956 | 0.956 | 0.956 | 0.956 |
+| ResNet | 0.815 | 0.892 | 0.893 | 0.891 |
 | CNN Personalizada | 0.768 | 0.766 | 0.768 | 0.764 |
 
 **Hallazgos clave:**
